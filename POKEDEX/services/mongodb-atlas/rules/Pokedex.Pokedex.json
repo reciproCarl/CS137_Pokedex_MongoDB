@@ -1,0 +1,27 @@
+{
+    "collection": "Pokedex",
+    "database": "Pokedex",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "fields": {
+                "date_captured": {},
+                "height_in": {},
+                "pokemon_name": {},
+                "pokemon_nickname": {},
+                "pokemon_type": {},
+                "weight_kg": {}
+            },
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {},
+        "title": "Pokedex"
+    }
+}
